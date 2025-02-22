@@ -3,32 +3,26 @@ import Link from "next/link";
 
 export default function Commands() {
 const commands = [
-  "/autoplay",
-  "/back",
-  "/statistic",
-  "/channel",
-  "/clear",
-  "/dj",
-  "/filter",
-  "/help",
-  "/language",
-  "/loop",
-  "/nowplaying",
-  "/pause",
-  "/ping",
-  "/play",
-  "/playlist",
-  "/queue",
-  "/resume",
-  "/save",
-  "/search",
-  "/seek",
-  "/servers",
-  "/shuffle",
-  "/skip",
-  "/stop",
-  "/time",
-  "/volume"
+  "/buton-rol",
+  "/capslock-engel",
+  "/custom-command",
+  "/destek-sistemi",
+  "/hesap-koruma",
+  "/kayıt-sistemi",
+  "/küfür-engel",
+  "/level-sistemi",
+  "/mod-log",
+  "/oto-rol",
+  "/oto-rol-kapat",
+  "/oto-tag",
+  "/oto-tag-kapat",
+  "/öneri-al",
+  "/reklam-engel",
+  "/timeout-sistemi",
+  "/timeout-sistemi-sıfırla",
+  "/yasaklı-kelime",
+  "/yasaklı-kelime-sıfırla",
+  "/yardım"
 ];
 
   return (
@@ -42,7 +36,7 @@ const commands = [
          Bot Commands
         </p>
         <p className="text-white text-sm text-opacity-50 mb-5">
-        You can get information about the commands of the MusicMaker Bot.
+        You can get information about the commands of the Rocky.me Bot.
         </p>
 
         <div>
@@ -89,9 +83,9 @@ const commands = [
 
         <div className="animateHeader mt-10 flex flex-wrap items-center justify-center gap-x-4">
   
-  <Link href={"https://discord.com/api/oauth2/authorize?client_id=774043716797071371&permissions=277028620608&scope=applications.commands%20bot"}>
+  <Link href={"https://discord.com/oauth2/authorize?client_id=1340383590399344650&permissions=8&integration_type=0&scope=bot+applications.commands"}>
   <a className={"flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Invite MusicMaker</a>
+Invite Rocky.me</a>
   </Link>
 
   <div className="py-10"></div>
