@@ -34,17 +34,17 @@ export default function AwardApp({ Component, pageProps }) {
     },
     {
       link: true,
-      name: "Support",
+      name: "Destek Sunucusu",
       icon: "fab fa-discord",
       activeIcon: "fab fa-discord",
-      href: "https://discord.gg/ACJQzJuckW",
+      href: "https://discord.gg/AZJvp2R7Ww",
     },
     {
       link: true,
       name: "Add Bot",
       icon: "fal fa-robot",
       activeIcon: "fab fa-robot",
-      href: "https://discord.com/api/oauth2/authorize?client_id=774043716797071371&permissions=277028620608&scope=bot%20applications.commands",
+      href: "https://discord.com/oauth2/authorize?client_id=1340383590399344650&permissions=8&integration_type=0&scope=bot+applications.commands",
     },
     {
       link: true,
@@ -64,7 +64,7 @@ export default function AwardApp({ Component, pageProps }) {
       />
       <Head>
         <title>
-          MusicMaker
+          Rocky.me
         </title>
       </Head>
       <main className="transition-all duration-200 z-10 absolute inset-0 px-5 h-screen max-w-7xl w-full mx-auto">
